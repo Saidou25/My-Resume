@@ -1,13 +1,40 @@
 nav {
+
    display: flex;
-   justify-content: flex-end;
    padding: 10px;
-   gap: 25px;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   background-color: rgb(242, 191, 51);
 
 }
 
+ ul {
+   display: flex;
+   justify-content: end;
+}
 nav ul li {
 
     display: inline;
     padding: 5px ;
+
+}
+ ul {
+display: flex;
+align-items: center;
+ }
+
+@media screen and (max-width:580px) {
+    nav {
+       flex-direction: column;
+    }
+}
+    @media screen and (max-width:580px) {
+     h1 {
+        text-align: center;
+    }
+}
+    @media screen and (max-width:580px) {
+     ul {
+        justify-content: center;
+    }
 }
