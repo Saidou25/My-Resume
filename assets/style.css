@@ -28,5 +28,36 @@ section {
     padding:  20px;
     font-size: 29px;
     line-height: 44px;
+    flex-wrap: wrap;
 }
 
+#work-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+article {
+    width: 50%;
+
+}
+.featured {
+
+    width: 100%;
+}
+
+
+
+#Contact {
+    display: inline;
+}
+
+article {
+    display: inline;
+}
+header {
+    padding: 20px;
+    background-color: rgb(236, 227, 148);
+    display: flex;
+    justify-content: space-between;
+}
