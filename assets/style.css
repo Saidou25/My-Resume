@@ -14,7 +14,7 @@ nav ul li  {
  }
 
  h2 {
-    font: size 25px; 
+    font-size:  23px; 
     text-align: center;
  }
 .container {
@@ -31,41 +31,29 @@ nav ul li  {
 }
 
 section {
-   
+   display: flex;
     padding:  20px;
     font-size: 218x;
     line-height: 44px;
     flex-wrap: wrap;
 }
 
-#work-gallery {
+.first-section {
     display: flex;
-    flex-wrap: wrap;
-    
 }
 
-article {
-    width: 50%;
 
-}
+
 .featured {
 
     width: 100%;
 }
 
-
+.about img {
+    width: 200px;
+}
 
 #Contact {
-    display: inline;
-}
-
-article {
-    display: inline;
-}
-header {
-    padding: 20px;
-    background-color: rgb(236, 227, 148);
     display: flex;
     justify-content: space-between;
-    
 }
