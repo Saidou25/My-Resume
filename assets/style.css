@@ -1,46 +1,32 @@
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: rgb(237, 182, 88);
-    height: 70px;
+body {
+    background-color: whitesmoke;
 }
 
 nav ul li  {
-   display: inline;
-   padding: 10px;
+    display: inline;
+    padding: 10px;
+ }
+ 
+ h1 {
+   font-size: x-large;
+     text-align: center;
+ }
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    background-color: yellow;
 }
 
-h1 {
-  font-size: xx-large;
-    text-align: center;
-}
-
-#About-me {
+.container > header {
+    padding: 20px;
+    background-color: rgb(236, 227, 148);
     display: flex;
-    justify-content: center;
-    background-color: rgb(242, 246, 166);
-    } 
-
-h2 {
-    text-align: center;
-}
-#Work-gallery {
-display: flex;
-justify-content: center;
-background-color: rgb(242, 246, 166);
+    justify-content: space-between;
 }
 
-
-article  {
-
-    flex-direction: column;
-
+section {
+    padding:  20px;
+    font-size: 29px;
+    line-height: 44px;
 }
-
-#Contact {
-    background-color: rgb(237, 182, 88); 
-    height: 70px;
-}
-
 
