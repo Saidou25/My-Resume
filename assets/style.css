@@ -5,11 +5,17 @@ body {
 nav ul li  {
     display: inline;
     padding: 10px;
+    text-decoration: none;
  }
  
  h1 {
    font-size: x-large;
      text-align: center;
+ }
+
+ h2 {
+    font: size 25px; 
+    text-align: center;
  }
 .container {
     max-width: 1140px;
@@ -25,8 +31,9 @@ nav ul li  {
 }
 
 section {
+   
     padding:  20px;
-    font-size: 29px;
+    font-size: 218x;
     line-height: 44px;
     flex-wrap: wrap;
 }
@@ -60,4 +67,5 @@ header {
     background-color: rgb(236, 227, 148);
     display: flex;
     justify-content: space-between;
+    
 }
