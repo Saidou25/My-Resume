@@ -68,7 +68,12 @@ display: flex
 footer {
     display: flex;
     justify-content: space-between;
-    align-items: center;
     padding: 20px;
     background-color: rgb(227, 189, 54);
+}
+
+footer ul li {
+    display: inline;
+padding: 21px;
+
 }
