@@ -2,7 +2,7 @@ body {
     background-color: whitesmoke;
 }
 
-nav ul li  {
+ nav ul li  {
     display: inline;
     padding: 10px;
    
@@ -16,6 +16,7 @@ nav ul li  {
  h2 {
     font-size:  23px; 
     text-align: center;
+    padding: 10px;
  }
 .container {
     max-width: 1140px;
@@ -52,18 +53,17 @@ section {
     padding: 18px;
 }
 
-.feature img {
-display: flex
-}
-.about img {
-    width: 200px;
-}
 
 .gallery-featured {
     display: flex;
     flex-wrap: wrap;
-
+    padding: 8px;
 }
+.gallery-featured img {
+
+    padding: 5px;;
+}
+
 
 footer {
     display: flex;
@@ -76,4 +76,45 @@ footer ul li {
     display: inline;
 padding: 21px;
 
+padding-top: 10px;
 }
+
+footer ul {
+   display: conter;
+}
+
+
+@media screen and (max-width: 768px)  {
+
+ 
+    .first-section {
+        display: flex;
+    display: block;
+    
+    }
+    
+    h3 {
+        text-align: center;
+    }
+   
+    footer {
+    display: flex;
+    display: block;
+    
+    }
+
+   footer ul li {
+    display: flex;
+    justify-content: center;
+       display: inline;
+       
+    }
+
+    footer ul {
+        text-align: center;
+        padding-top: 15px;
+    }
+  
+   }
+    
+
