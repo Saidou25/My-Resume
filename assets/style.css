@@ -16,11 +16,11 @@ h1 {
   }
 
  nav ul li  {
-    display: inline;
+   display: inline;
     padding: 10px;
-   
+  
  }
- /*------------------------------------------------*/
+/*----------------------end-------------------*/
 
  /*----------------------main  about-------------------*/
  
@@ -48,81 +48,56 @@ h2 {
 .first-section p {
     padding-left: 20px;
 }
-/*----------------------------------------------*/
+/*----------------------end-------------------*/
 
 /*----------------------main gallery-------------------*/
 .gallery-featured {
     display: flex;
     flex-wrap: wrap;
     padding: 8px;
-
 max-width: 900px;
 margin: 0 auto;
 background-color: aqua;
 justify-content: center;
+width: auto;
 }
-
-
-
 
 article {
     padding: 5px;
 }
 
 
-
+/*----------------------end-------------------*/
  
+/*----------------------Footer------------------*/
 
-/*section {
-   
-    padding:  20px;
-    line-height: 44px;
-   
-}
-
-
-/*.first-section img {
-    
-    padding: 5px;
-}
-
-*/
-/*.featured {
-    display: flex;
-    padding: 18px;
-}
-*/
-
-/*.gallery-featured {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 8px;
-}
-*/
-/*.gallery-featured img {
-
-    padding: 5px;;
-}
-*/
-
-/*footer {
+footer {
     display: flex;
     justify-content: space-between;
-    padding: 20px;
+    padding: 10px;
     background-color: rgb(227, 189, 54);
+   text-align: center;
 }
-*/
-/*footer ul li {
-    display: inline;
-padding: 21px;
 
-padding-top: 10px;
+
+footer h2 {
+    font-size: 23 px;
+    
 }
-*/
-/*footer ul {
-   display: conter;
+
+.my-contacts {
+    display: flex;
+    align-items: center;
+    
 }
-*/
+
+.my-contacts li {
+    justify-content: space-evenly;
+    padding: 24px;
+}
+/*-----------------------------------------------*/
+
+
 
 @media screen and (max-width: 992px)  {
 
@@ -139,6 +114,21 @@ padding-top: 10px;
         flex-direction: row;
          }
 
+
+footer {
+    display: flex;
+        flex-direction: column;
+        justify-content: center;
+    
+    }
+
+    .my-contacts  {
+       display: flex;
+       justify-content: center;
+       
+    }
+
+    
 }
    /*.first-section {
         display: flex;
@@ -150,19 +140,15 @@ padding-top: 10px;
         text-align: center;
     }
    */
-   /* footer {
-    display: flex;
-    display: block;
-    
-    }
-*/
-   /*footer ul li {
+   
+/*
+   footer ul li {
     display: flex;
     justify-content: center;
        display: inline;
        
-    }
-*/
+    }*/
+
     /*footer ul {
         text-align: center;
         padding-top: 15px;
