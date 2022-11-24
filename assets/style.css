@@ -1,11 +1,11 @@
 body {
-    background-color: rgb(220, 161, 33);
+  /*  background-color: rgb(220, 161, 33);*/
 }
 
 /*----------------------header-------------------*/
 .container > header {
     padding: 20px;
-    background-color: rgb(227, 189, 54);
+  /*  background-color: rgb(227, 189, 54);*/
     display: flex;
     justify-content: space-between;
 }
@@ -29,7 +29,7 @@ h1 {
  .container {
     max-width: 1140px;
     margin: 0 auto;
-    background-color: rgb(239, 231, 175);
+   /* background-color: rgb(239, 231, 175);*/
 }
 
 
@@ -42,11 +42,13 @@ h2 {
  .first-section {
     display: flex;
     justify-content: center;
-    
+    padding-top: 50px;
+    padding-left: 170px;
+    padding-right: 170px;
 }
 
 .first-section p {
-    padding-left: 20px;
+    padding-left: 10px;
 }
 /*----------------------end-------------------*/
 
@@ -57,15 +59,19 @@ h2 {
     padding: 8px;
 max-width: 900px;
 margin: 0 auto;
-background-color: aqua;
+/*background-color: aqua;*/
 justify-content: center;
 width: auto;
 }
 
 article {
     padding: 5px;
+    text-align: center;
 }
 
+h3 {
+    padding: 3px;
+}
 
 /*----------------------end-------------------*/
  
@@ -75,8 +81,9 @@ footer {
     display: flex;
     justify-content: space-between;
     padding: 10px;
-    background-color: rgb(227, 189, 54);
+  /*  background-color: rgb(227, 189, 54);*/
    text-align: center;
+   
 }
 
 
@@ -114,6 +121,14 @@ footer h2 {
         flex-direction: row;
          }
 
+.first-section {
+    display: block;
+    padding-top: 10px;
+}
+
+.first-section p {
+    padding-top: 40px;
+}
 
 footer {
     display: flex;
@@ -130,35 +145,43 @@ footer {
 
     
 }
-   /*.first-section {
+   
+
+@media screen and (max-width: 360px) {
+   
+    .container > header {
         display: flex;
-    flex-direction: column;
-    
+        flex-direction: column;
+        justify-content: center;
     }
-    
-  /*  h3 {
-        text-align: center;
-    }
-   */
-   
-/*
-   footer ul li {
+
+    nav ul  {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+         }
+
+.first-section {
+    display: block;
+}
+
+
+
+footer {
     display: flex;
-    justify-content: center;
-       display: inline;
-       
-    }*/
-
-    /*footer ul {
-        text-align: center;
-        padding-top: 15px;
+        flex-direction: column;
+        justify-content: center;
+    
     }
- */
-   
 
-/* @media screen and (max-width: 768px) {
-   
-   
+    .my-contacts  {
+       display: flex;
+       justify-content: center;
+       
+    }
+
+}
+
    /* .first-section {
         display: flex;
         padding: 18px;
