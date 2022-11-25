@@ -1,13 +1,15 @@
 body {
-   background-color: rgb(220, 161, 33);
+  /* background-color: rgb(220, 161, 33);*/
+   font-family: sans-serif;
 }
 
 /*----------------------header-------------------*/
-.container > header {
+.header  {
     padding: 20px;
-   background-color: rgb(227, 189, 54);
+   /*background-color: rgb(227, 189, 54);*/
     display: flex;
     justify-content: space-between;
+   
 }
 
 h1 {
@@ -23,21 +25,16 @@ h1 {
 
  .hero {
     height: 290px;
-    background-image: url(../assets/images/images-1.jpg);
+    background-image: url(../assets/images/images-2.jpg);
     width: 100%;
     background-size: cover;
     background-position: center;
+    
 }
   
- 
-
-/*----------------------end-------------------*/
+ /*----------------------end-------------------*/
 
  /*----------------------main  about-------------------*/
- 
- 
- 
-
 
 h2 {
     font-size:  23px; 
@@ -51,7 +48,7 @@ h2 {
     padding-top: 50px;
     max-width: 800px;
     margin: auto;
-    background-color: wheat;
+  /*  background-color: wheat;*/
 }
 
 .text {
@@ -71,7 +68,7 @@ h2 {
 max-width: 900px;
 margin: 0 auto;
 margin-bottom: 40px;
-background-color: aqua;
+/*background-color: aqua;*/
 justify-content: center;
 width: auto;
 }
@@ -92,12 +89,11 @@ h3 {
 footer {
     display: flex;
     justify-content: space-between;
-    padding: 10px;
-   background-color: rgb(227, 189, 54);
-   text-align: center;
+   
+   background-color:  rgb(209 155 56 / 45%);
+   
    
 }
-
 
 footer h2 {
     font-size: 23 px;
@@ -117,11 +113,10 @@ footer h2 {
 /*-----------------------------------------------*/
 
 
-
 @media screen and (max-width: 992px)  {
 
  
-    .container > header {
+    .header  {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -159,46 +154,89 @@ footer {
 }
    
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 414px) {
+
+    main {
+    height: 896px;
+    }
    
-    .container > header {
+
+    .hero {
+        height: 40px;
+    }
+   .gallery-featured img {
+      
+width: 100px;
+
+    }
+}
+    
+  /*  .header {
         display: flex;
         flex-direction: column;
         justify-content: center;
     }
+    */
 
-    nav ul  {
+  /*  nav ul  {
         display: flex;
         justify-content: center;
         flex-direction: row;
          }
+*/
+/* @media screen and (max-width: 840px) {
 
-.first-section {
+   body {
+    height: 100px;
+     position: fixed;
+   }
+
+    .hero {
+        height: 150px;
+    }
+   .gallery-featured img {
+      
+width: 300px;
+
+    }
+}*/
+/*
+    footer {
+        display: flex;
+            flex-direction: column;
+            justify-content: center;
+        height: 100px;
+        text-align: center;
+        }
+} /*
+/*.first-section {
     display: block;
 }
-
-
-
+*/
+/*
 footer {
     display: flex;
         flex-direction: column;
         justify-content: center;
     
     }
+    /*
 
     .my-contacts  {
        display: flex;
        justify-content: center;
        
     }
+    */
 
-}
+
 
    /* .first-section {
         display: flex;
         padding: 18px;
         flex-direction: column;
  }
+ /*
 
  }
 
@@ -216,3 +254,4 @@ footer {
         padding: 18px;
         flex-direction: column;
     }
+    /*
