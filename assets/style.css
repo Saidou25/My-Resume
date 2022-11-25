@@ -44,11 +44,10 @@ h2 {
 
  .first-section {
     display: flex;
-    
     padding-top: 50px;
     max-width: 800px;
     margin: auto;
-  /*  background-color: wheat;*/
+  
 }
 
 .text {
