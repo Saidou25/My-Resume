@@ -1,9 +1,19 @@
 ## [My-Resume](https://saidou25.github.io/My-Resume/)
 
+#Table of contents:
+
+- Screenshot of the deployed application.
+- Technical.
+
+
+###My virtual resume.
+Screenshot of the webpage:
 
 ![Alt text](assets/images/_Users_coding_bootcamp_challenges_My-Resume_index.html.png)
 
-This is my virtual resume built using:
+###Technical.
+
+This is a list of the main tools used in the building of the Website:
 
 
 - HTML identation: To facilitate the reading of the code.
